@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Markets Quiz</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="banner">
+			<div id="title">
+				Markets Time
+			</div>
+		</div>
+		<section>
+			<div id="main">
+				<div id="instructions">
+				<p>
+					Instructions
+				</p>
+				</div>
+				<div id="about">
+					<p>
+						You's going to be presented with some questions. 
+					</p>
+					<p>
+						Answer them to the best of your abilities.
+					</p>
+					<button id="button-p" class="feedback">
+						Start
+
+					</button>
+				</div>
+			
+			</div>
+			<div id="question-page" >
+				<div class="question-header">
+					<p class="question-title">
+						Question 1
+					</p>
+					<div class="question">
+						What year did Google IPO?
+					</div>
+					
+				<div id="answers">
+					<div id="answer-box">
+						<div class="boom">1999</div>
+						<div class="boom">2004</div>
+						<div class="boom">2005</div>
+						<div class="boom">2002</div>
+					</div>
+					<div id="score-box">Score - 0</div>
+					
+				</div>
+				<div id="score-box">
+				</div>
+				<div id="previous-answers">
+					<div>
+						Previous Answer:
+						<ul id="answer-list">
+							
+						</ul>
+					</div>
+				</div>
+				<div id="correct" class="feedback" style="display:none">
+					<div>
+						Correct!!!
+					</div>
+					<input id="next-button" class="button" type="button" value="Next Question">
+				</div>
+				<div id="incorrect" class="feedback">
+					<div>
+						Ahhh!! Incorrect!
+					</div>
+					<input id="next-button" class="button" type="button" value="Next Question">
+				</div>
+				<div id="results">
+					<div id="results-1">
+						
+					</div>
+					<div id="final-remark">
+					</div>
+					<input id="home-button" class="button" type="button" value="Go Home">
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

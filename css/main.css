@@ -1,0 +1,389 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	
+	background-color: #E4F1FE;
+	margin: 0px;
+    	margin-top: 0px;
+    	margin-right-value: 0px;
+    	margin-bottom: 0px;
+    	margin-left-value: 0px;
+    	margin-left-ltr-source: physical;
+    	margin-left-rtl-source: physical;
+    	margin-right-ltr-source: physical;
+    	margin-right-rtl-source: physical;
+	padding: 0px;
+    	padding-top: 0px;
+    	padding-right-value: 0px;
+    	padding-bottom: 0px;
+    	padding-left-value: 0px;
+    	padding-left-ltr-source: physical;
+    	padding-left-rtl-source: physical;
+    	padding-right-ltr-source: physical;
+    	padding-right-rtl-source: physical;
+	height: 100%;
+	min-width: 800px;
+}
+
+#title {
+text-align: center;
+font-family: sans-serif;
+font-size: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #FFF;
+background: linear-gradient(to bottom, #4183D7 0%, #CF0404 100%) repeat scroll 0% 0% transparent;
+}
+
+section {
+    width: 700px;
+    height: 400px;
+    margin: 30px auto;
+        margin-top: 30px;
+        margin-right-value: auto;
+        margin-bottom: 30px;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    box-shadow: 0px 0px 37px 4px rgba(31, 28, 31, 0.22);
+    background-color: #F2F1EF;
+}
+
+#main {
+    width: 700px;
+    margin: 0px auto;
+        margin-top: 0px;
+        margin-right-value: auto;
+        margin-bottom: 0px;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    padding-top: 30px;
+    
+    
+}
+
+#instructions {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+#instructions p {
+    display: inline-block;
+    width: 400px;
+    border-bottom: 2px solid #F00;
+}
+
+#about {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#about p {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#about button {
+	position: relative;
+margin-top: 10%;
+height: 41px;
+width: 100px;
+border-radius: 15px;
+border: 4px solid #75A1C2;
+background-color: #FFFCFB;
+color: #536161;
+font-weight: bold;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#question-page {
+    margin: 0px auto;
+    height: inherit;
+    width: inherit;
+    display: none;
+}
+
+.question {
+    font-family:sans-serif;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.question-header {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+}
+
+.question-header p {
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+p {
+    margin: 0px;
+}
+
+#answers {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#answer-box {
+    width: inherit;
+    background-color: #252A3A;
+    height: 150px;
+}
+
+.boom:hover {
+    background-color: #444d6a;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+}
+
+.boom {
+    background-color: rgb(255, 252, 251);
+    border: 4px solid rgb(83, 97, 97);
+    border-radius: 15px;
+    color: rgb(83, 97, 97);
+    display: inline-block;
+    height: 41px;
+    line-height: 2.5;
+    margin: 0 10px;
+    max-width: 450px;
+    min-width: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;margin-top: 30px;
+    font-size: 20px;
+}
+
+#score-box {
+    display: block;
+    background-color: #444D6A;
+    width: 100%;
+    color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#score-box {
+    background-color: #444d6a;
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#previous-answers {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: #B5BCD0;
+    height: 51px;
+}
+
+#answer-list {
+    display: inline-block;
+    list-style: none outside none;
+}
+
+#answer-list li {
+	display: inline-block;
+}
+
+#previous-answers {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#correct {
+    margin: 0px auto;
+    height: inherit;
+    width: inherit;
+    background-color: #008000;
+    opacity: 0.7;
+    display: none;
+}
+#correct div {
+    display: block;
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 90px;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#next-button {
+    display: block;
+    margin: 50px auto 0px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    border: medium none;
+    background-color: inherit;
+    color: #FFF;
+}
+
+#next-button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
+}
+
+#incorrect {
+    display: none;
+    margin: 0px auto;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to bottom, #FF3019 25%, #CF0404 100%) repeat scroll 0% 0% transparent;
+}
+
+#incorrect div {
+    display: block;
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 90px;
+    margin: 0px auto;
+        margin-top: 0px;
+        margin-right-value: auto;
+        margin-bottom: 0px;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#results {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 90px;
+}
+
+#results {
+    display: none;
+    margin: 0px auto;
+    height: inherit;
+    width: inherit;
+    background-color: #252A3A;
+    color: #FFF;
+}
+
+#results-1 {
+    padding-top: 100px;
+    text-decoration: underline;
+}
+
+#results {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 90px;
+}
+
+#results {
+    color: #FFF;
+}
+
+#home-button {
+    display: block;
+    margin: 50px auto 0px;
+        margin-top: 50px;
+        margin-right-value: auto;
+        margin-bottom: 0px;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 100%;
+    border: medium none;
+        border-top-width: medium;
+        border-right-width-value: medium;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: medium;
+        border-left-width-value: medium;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: none;
+        border-right-style-value: none;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: none;
+        border-left-style-value: none;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: -moz-use-text-color;
+        border-right-color-value: -moz-use-text-color;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: -moz-use-text-color;
+        border-left-color-value: -moz-use-text-color;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    background-color: #343B52;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#home-button:hover {
+
+	text-decoration: underline;
+	background-color: #444d6a
+}
+
+#feedback {
+	text-align: center;
+	text-decoration: underline;
+	font-family: sans-serif;
+	font-size: 50px;
+}
